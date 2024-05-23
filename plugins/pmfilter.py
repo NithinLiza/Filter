@@ -204,7 +204,6 @@ async def next_page(bot, query):
         )
         btn.insert(0, [
             InlineKeyboardButton("ᴘʀᴇᴍɪᴜᴍ", url=f"https://t.me/+JeWFhkIdXkdiNzc1"),
-            "),
             InlineKeyboardButton("sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
         ])
 
