@@ -149,6 +149,6 @@ async def plan(client, message):
 	
         InlineKeyboardButton("📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ʜᴇʀᴇ", user_id=int(6497757690))],[InlineKeyboardButton("❌ ᴄʟᴏꜱᴇ ❌", callback_data="close_data")
     ]]
-    await message.reply_photo(photo="https://telegra.ph/file/8feff3b532fdda136800d.jpg", caption=script.PREMIUM_TEXT.format(message.from_user.mention), reply_markup=InlineKeyboardMarkup(btn))
+    await message.reply_photo(photo="https://graph.org/file/8bffb2dd6cba8d662a8cc.jpg", caption=script.PREMIUM_TEXT.format(message.from_user.mention), reply_markup=InlineKeyboardMarkup(btn))
     
 # SPECIAL THANKS TO @DeletedFromEarth FOR MODIFYING THESE AMAZING CODES 
