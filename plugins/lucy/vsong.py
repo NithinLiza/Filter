@@ -41,7 +41,7 @@ async def ytmusic(client, message: Message):
     pablo = await client.send_message(message.chat.id, f"sᴇᴀʀᴄʜɪɴɢ, ᴩʟᴇᴀsᴇ ᴡᴀɪᴛ...")
     if not urlissed:
         await pablo.edit(
-            "😴 sᴏɴɢ ɴᴏᴛ ғᴏᴜɴᴅ ᴏɴ ʏᴏᴜᴛᴜʙᴇ.\n\n» ᴍᴀʏʙᴇ ᴛᴜɴᴇ ɢᴀʟᴛɪ ʟɪᴋʜᴀ ʜᴏ, ᴩᴀᴅʜᴀɪ - ʟɪᴋʜᴀɪ ᴛᴏʜ ᴋᴀʀᴛᴀ ɴᴀʜɪ ᴛᴜ !"
+            "😴 sᴏɴɢ ɴᴏᴛ ғᴏᴜɴᴅ ᴏɴ ʏᴏᴜᴛᴜʙᴇ.\n\n» ꜱᴇʀᴠᴇʀ ʙᴜꜱʏ ʙʀᴏ, ᴩʟᴇᴀꜱᴇ - ᴡᴀɪᴛ ʀᴇ ᴇɴᴛᴇʀ ʏᴏᴜʀ ꜱᴏɴɢ ɴᴀᴍᴇ !"
         )
         return
 
