@@ -19,7 +19,7 @@ async def imagine_(b, message: Message):
             f.write(x)
         caption = f"""
     ⌯ sᴜᴄᴇssғᴜʟʟʏ ɢᴇɴᴇʀᴀᴛᴇᴅ : {text}
-    ⌯ ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ : @lucy_filter_bot
+    ⌯ ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ : @Lucafilterbot
     """
         await Lucy.delete()
         await message.reply_photo("lucy.jpg",caption=caption,quote=True)
