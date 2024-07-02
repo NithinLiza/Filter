@@ -137,4 +137,4 @@ async def delallgfilters(client, message):
                 [InlineKeyboardButton(text="CANCEL",callback_data="gfiltersdeleteallcancel")]
             ]),
             quote=True
-        )
+    )
